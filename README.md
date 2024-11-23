@@ -1,5 +1,7 @@
 ## Minimum Viable Chatbot
 
+![Example](minimum_viable_chatbot.gif)
+
 This is a simple chatbot built with FastAPI and LangChain. It uses a custom frontend built with HTML, CSS, and JavaScript.
 
 I'm bad at frontend development, so I wanted to build the simplest chatbot possible.
