@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/extras.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="module" src="js/chat.js"></script>
+    <title>Chatbot</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">Minimum Viable Chatbot</div>
+    </nav>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-8 mx-auto">
+                <div class="card">
+                    <div class="card-body chat-window" style="height: 400px; overflow-y: auto;">
+                        <!-- Chat messages will appear here -->
+                        <div class="d-flex flex-column">
+                            <div class="bot-message mb-2">
+                                <div class="alert alert-secondary d-inline-block">
+                                    Hello! How can I help you today?
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="user-input" placeholder="Type your message...">
+                            <button class="btn btn-primary" id="send-button">Send</button>
+                            <button class="btn btn-secondary" id="reset-button">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
